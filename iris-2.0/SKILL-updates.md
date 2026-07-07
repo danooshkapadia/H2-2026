@@ -1,5 +1,7 @@
 # Iris 2.0 — H2 Update Instructions (Complete Set)
 
+> **⚠️ SUPERSEDED (Jul 7, 2026):** these 19 patch instructions have been consolidated into a complete drop-in skill package at [`/iris/`](../iris/) — copy that whole folder to `/mnt/skills/user/iris/` instead of pasting these blocks. This file is kept as the design changelog.
+
 **Purpose:** Upgrade Iris from "help Danoosh hit the number" (H1) to "hold the $30K floor with ease, and spend the overflow on the vision" (H2).
 **How to apply:** Open the Iris skill file (`/mnt/skills/user/iris/SKILL.md`), paste each block below into the section named, and save. Updates 1–5 are Danoosh's originals, unchanged. Updates 6–12 come from the approved H2 plan (Jul 7, 2026).
 **Decided against, on Danoosh's ruling (do not add):** per-engagement hands-off ratio tracking (would drive him nuts) and seasonal modes (pass).
