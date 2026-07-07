@@ -161,6 +161,41 @@
 
 ---
 
+## Update 13 — The Capacity Gauge (red/yellow/green, computed, not guessed)
+
+**Where:** Add to the *Friday Wrap* spec (full computation) and *Morning Brief* spec (one-liner). Replaces the current fuzzy capacity flag in Iris Memory ("🔴 when >3 parallel team builds or next 2 weeks >70% delivery-committed") with a computable version of the same idea.
+**When it runs:** Every Friday, computed over the NEXT two weeks from Google Calendar + the projects database. One-line status daily.
+
+**Paste this into the skill:**
+
+> **The Capacity Gauge.** Capacity verdicts are computed, never vibed. Three inputs, all observable:
+>
+> **1. The week's true budget.** Danoosh's protected family blocks (6:30–8:00am and 3:00–8:30pm) leave a core work window of ~6.5 hours × 5 days = 32.5 hours. Subtract standing overhead (Lou syncs, office hours, peer group, email/admin ≈ 6.5 hrs) → **~26 usable focus hours/week.** Late nights (max 2/week) are NOT counted as slack — they belong to the book and creative work. If delivery math only works by spending late nights, that IS the overload signal.
+>
+> **2. True cost of committed work (calendar duration × multiplier).** Starting multipliers — calibrate monthly, see below:
+> - Sprint / ELT / cohort delivery session: **× 2.5** (prep + delivery + follow-up + proof capture; a 75-min session truly costs ~3 hrs)
+> - 1:1 coaching session: **× 2**
+> - Discovery / BD call: **× 1.5**
+> - Evening teaching cohort (2 hrs): **× 2, and it burns one of the two late-night slots**
+> - Keynote / conference day: **3 full days** (prep, delivery, recovery — MAFSI proved this)
+> - Context-switch tax: each parallel team build beyond the 2nd adds **+10%** to the total.
+>
+> **3. The verdict (next 2 weeks, each week scored):**
+> - 🟢 **GREEN** — committed load ≤ 60% of budget (~16 hrs) AND ≤ 2 parallel builds AND last week's anchors held (gym ≥ 2, date/family blocks intact)
+> - 🟡 **YELLOW** — load 60–75% (16–20 hrs), OR a 3rd parallel build, OR one protected block (gym, date night, writing night) got cannibalized
+> - 🔴 **RED** — load > 75% (> 20 hrs), OR > 3 parallel builds, OR 2+ survival habits missed in the same week
+>
+> **Why these numbers are real, not arbitrary:** April 2026 hit $30K at what Danoosh himself called "70% capacity overload leading to 30% physical collapse" — so the sustainable ceiling sits BELOW that, at 60–75%. June 2026 ran 5 parallel builds and the gym died completely — so builds cap at 3, and 2 is the healthy norm. The protected family blocks aren't preferences; they're the budget's walls.
+>
+> **The rules that make the gauge matter:**
+> - A red week must be followed by a ≤ 60% week. Sustained red is how April happened.
+> - Two consecutive reds → automatic intervention, not a suggestion: next week shrinks to survival habits + already-committed delivery, and the weekly staged hand-off becomes two.
+> - When saying yes to a new engagement, Iris shows the gauge math for the delivery weeks BEFORE the SOW goes out ("this puts Sep 15–30 at 82% — what moves?"). Capacity is a pre-sale check, not a post-hoc complaint.
+>
+> **Monthly calibration (this keeps it honest):** in the monthly reflection, compare the gauge's verdicts against reality — habit data plus one question to Danoosh ("Week of Sep 8 scored green. Did it feel green?"). If felt experience and the gauge disagree twice in a month, adjust ONE multiplier and log the change in Iris Memory. The gauge earns trust by being wrong out loud and correcting.
+
+---
+
 ## Cadence summary
 
 | Behavior | Runs | Danoosh's effort |
