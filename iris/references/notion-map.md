@@ -24,6 +24,12 @@ The single reference for where everything lives in Danoosh's Notion. When a loca
   - **Iris Reference Library** (annotated business/personal/taste files): https://app.notion.com/p/39621b86c24781959c15eaecb1e9cfd4
 - Iris updates the Space scoreboard + current month page at every Friday wrap.
 
+## The Sales Machine Space (infrastructure hub, Jul 2026)
+
+- **Front door** (division of labor, health dashboard): https://app.notion.com/p/39721b86c24781319cb0e76c42623e7d
+- **🩺 Machine Health Board** (one row per relay; watchdog stamps misses, Friday wrap updates all rows): database https://app.notion.com/p/1520d9ba78f7446d8cfda56882a76c8f · data source `collection://11e8a50e-86d8-4c0b-bc3f-b6637c1066b9`
+- Child pages: How the Machine Fits Together (the two maps) · The Audit (Jul 7) · The Build Plan (phased, no-code)
+
 ## AI Hub — the agents' home and the central log space
 
 - **AI Hub** (point ALL agents here): https://app.notion.com/p/5be21b86c24783d1a41b015d77a90d38
