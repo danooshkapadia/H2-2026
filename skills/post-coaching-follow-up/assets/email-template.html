@@ -1,0 +1,95 @@
+<!--
+  Client Follow-Up Email Template — Brand-Styled HTML for Gmail
+
+  USAGE:
+  - Load in Step 9 when drafting the client follow-up
+  - Fill in all {placeholder} values
+  - Keep all inline styles intact — they're what carries the brand
+  - Do NOT add <html>, <head>, or <body> wrappers. Just the container <div> below.
+  - Pass the filled HTML to gmail_create_draft with contentType: "text/html"
+
+  BRAND APPROXIMATION (Gmail-safe):
+  - Headers: Arial (Helvetica Bold stand-in), bold, black
+  - Sub-headers: Arial Regular, khaki #c5aa88, uppercase, letter-spaced
+  - Body: Georgia (Century stand-in), 16px, line-height 1.6, near-black #1a1a1a
+  - Dividers: #eaeaea thin rules
+  - Red accent #cc0000 reserved for 1-2 uses max across the whole email
+-->
+
+<div style="max-width: 600px; font-family: Georgia, 'Times New Roman', serif; font-size: 16px; line-height: 1.6; color: #1a1a1a;">
+
+  <p>Hi {FirstName},</p>
+
+  <p>{Warm opener paragraph. Names the meta-shift. Not "great session today." Something that makes the client feel seen at the altitude level. 2 to 4 sentences.}</p>
+
+  <hr style="border: none; border-top: 1px solid #eaeaea; margin: 28px 0;">
+
+  <h2 style="font-family: Arial, Helvetica, sans-serif; font-weight: 700; color: #000000; font-size: 20px; margin: 0 0 16px 0;">{Insight section title}</h2>
+
+  <p>{Optional 1 to 2 sentence narrative framing the section.}</p>
+
+  <h3 style="font-family: Arial, Helvetica, sans-serif; font-weight: 500; color: #c5aa88; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px; margin: 24px 0 8px 0;">1. {Moment sub-header}</h3>
+  <p>{2 to 4 sentence interpretation of what this moment meant. Not what happened. What it signaled.}</p>
+
+  <h3 style="font-family: Arial, Helvetica, sans-serif; font-weight: 500; color: #c5aa88; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px; margin: 24px 0 8px 0;">2. {Moment sub-header}</h3>
+  <p>{...}</p>
+
+  <h3 style="font-family: Arial, Helvetica, sans-serif; font-weight: 500; color: #c5aa88; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px; margin: 24px 0 8px 0;">3. {Moment sub-header}</h3>
+  <p>{...}</p>
+
+  <hr style="border: none; border-top: 1px solid #eaeaea; margin: 28px 0;">
+
+  <h2 style="font-family: Arial, Helvetica, sans-serif; font-weight: 700; color: #000000; font-size: 20px; margin: 0 0 12px 0;">A few ideas to lock in</h2>
+
+  <p>{Optional 1-sentence frame for why these matter.}</p>
+
+  <ul style="margin: 0 0 16px 0; padding-left: 20px;">
+    <li style="margin-bottom: 8px;"><strong style="color: #000000;">{Key phrase.}</strong> {Brief explanation, one line.}</li>
+    <li style="margin-bottom: 8px;"><strong style="color: #000000;">{Key phrase.}</strong> {Brief explanation, one line.}</li>
+    <li style="margin-bottom: 8px;"><strong style="color: #000000;">{Key phrase.}</strong> {Brief explanation, one line.}</li>
+  </ul>
+
+  <hr style="border: none; border-top: 1px solid #eaeaea; margin: 28px 0;">
+
+  <h2 style="font-family: Arial, Helvetica, sans-serif; font-weight: 700; color: #000000; font-size: 20px; margin: 0 0 12px 0;">Homework (keep it small and repeatable)</h2>
+
+  <h3 style="font-family: Arial, Helvetica, sans-serif; font-weight: 500; color: #c5aa88; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px; margin: 20px 0 8px 0;">1. {Homework title}</h3>
+  <p>{One line of context. What it is, why it matters.}</p>
+  <ul style="margin: 0 0 16px 0; padding-left: 20px;">
+    <li style="margin-bottom: 6px;">{Specific step}</li>
+    <li style="margin-bottom: 6px;">{Specific step}</li>
+  </ul>
+
+  <h3 style="font-family: Arial, Helvetica, sans-serif; font-weight: 500; color: #c5aa88; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px; margin: 20px 0 8px 0;">2. {Homework title}</h3>
+  <p>{One line of context.}</p>
+  <ul style="margin: 0 0 16px 0; padding-left: 20px;">
+    <li style="margin-bottom: 6px;">{Specific step}</li>
+    <li style="margin-bottom: 6px;">{Specific step}</li>
+  </ul>
+
+  <hr style="border: none; border-top: 1px solid #eaeaea; margin: 28px 0;">
+
+  <h2 style="font-family: Arial, Helvetica, sans-serif; font-weight: 700; color: #000000; font-size: 20px; margin: 0 0 12px 0;">What's next</h2>
+
+  <p>{One short paragraph on the next session, framed as a natural continuation of what just opened up. 2 to 3 sentences.}</p>
+
+  <hr style="border: none; border-top: 1px solid #eaeaea; margin: 28px 0;">
+
+  <h2 style="font-family: Arial, Helvetica, sans-serif; font-weight: 700; color: #000000; font-size: 20px; margin: 0 0 12px 0;">Session Resources</h2>
+
+  <ul style="margin: 0 0 16px 0; padding-left: 20px;">
+    <li style="margin-bottom: 6px;"><strong style="color: #000000;">Call Recording:</strong> <a href="{Fathom URL}" style="color: #1a1a1a;">Watch here</a></li>
+    <li style="margin-bottom: 6px;"><strong style="color: #000000;">Slides:</strong> <a href="{Gamma URL}" style="color: #1a1a1a;">See here</a></li>
+    <li style="margin-bottom: 6px;"><strong style="color: #000000;">{Artifact name}:</strong> <a href="{URL}" style="color: #1a1a1a;">Link</a></li>
+  </ul>
+
+  <p style="margin-top: 28px;">{Warm close, one line. Reinforces progress or the compounding nature of the work.}</p>
+
+  <p>Looking forward to seeing you at our next session on {Month} {Day}{ordinal}.</p>
+
+  <p style="margin-bottom: 4px;">Warmly,</p>
+  <p style="margin: 0;">Danoosh</p>
+
+  <p style="color: #8a8a8a; font-size: 14px; margin-top: 20px;">C: (415) 680-5730</p>
+
+</div>

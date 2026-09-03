@@ -1,0 +1,100 @@
+<!--
+  AI Team Sprint — Kickoff Deck HTML Template
+  Brand-styled scrollable presentation for screen-sharing during sponsor kickoff calls.
+
+  USAGE:
+  - Load in Step 4 when building the kickoff deck
+  - Replace all {PLACEHOLDER} values with client-specific content
+  - All dates should be in the client's timezone
+  - No pricing on screen (client already paid)
+  - Team lead shown as "TBD, confirmed this week" if not yet confirmed
+  - Eyebrow text minimum 13px
+  - Save to /mnt/user-data/outputs/{Client}_Team_Sprint_Kickoff_Deck.html
+
+  BRAND TOKENS:
+  --ink-1: #000000 (titles, primary text)
+  --ink-2: #1A1A1A (body text)
+  --ink-3: #6B6B6B (captions, secondary)
+  --ink-4: #9A9A9A (tertiary, timestamps)
+  --white: #FFFFFF
+  --khaki-paper: #ECE3D7 (warm background sections)
+  --soft-paper: #F5F3EE (soft background sections)
+  --utility-grey: #EAEAEA (borders, rules)
+  --red: #CC0000 (sparingly: today marker, critical emphasis)
+  --khaki: #C5AA88 (eyebrows, sub-headers, accents)
+  --rule: rgba(0,0,0,0.5)
+  --rule-hair: rgba(0,0,0,0.25)
+  --rule-faint: rgba(0,0,0,0.12)
+  --sans: 'Helvetica Neue', Helvetica, Arial, sans-serif
+  --serif: Georgia, 'Times New Roman', serif
+  --mono: 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace
+
+  SLIDE BACKGROUNDS (alternate for rhythm):
+  --white: neutral slides (title, timeline, agreements, rhythm)
+  --soft-paper: roles, assessment
+  --khaki-paper: sessions, what you provide
+  --ink-1 (black): closing slide (white text)
+
+  TYPOGRAPHY SCALE:
+  .display: clamp(40px, 5.5vw, 68px) — title slide only
+  .headline: clamp(26px, 3.2vw, 38px) — slide headers
+  .subhead: 19px — section sub-headers
+  .lede: clamp(18px, 1.5vw, 21px) — serif, slide sub-copy
+  .eyebrow: 13px — uppercase, letter-spaced, khaki
+  .body-text: 16px — serif, body copy
+  .caption: 13px — sans, secondary info
+  .mono-label: 11px — monospace, metadata
+
+  REQUIRED SLIDES (9-10 max):
+  1. Title (slide--white)
+  2. Three Roles (slide--soft)
+  3. Timeline (slide--white)
+  4. The Five Sessions (slide--khaki)
+  5. Between-Session Rhythm (slide--white)
+  6. Capability Assessment (slide--soft)
+  7. Agreements (slide--white)
+  8. What Each Side Provides (slide--khaki)
+  9. Closing (slide--ink)
+
+  SLIDE STRUCTURE:
+  Each slide follows this pattern:
+  <section class="slide slide--{background}">
+    <div class="slide-inner">
+      <span class="eyebrow">{Section label}</span>
+      <h2 class="headline">{Slide title}</h2>
+      <p class="lede">{Sub-copy}</p>
+      {Content block}
+    </div>
+    <span class="slide-num">{NN} / {TOTAL}</span>
+  </section>
+
+  TIMELINE COMPONENT:
+  - Use a grid with 8 columns (today + 7 weeks)
+  - Phase bars: khaki for pre/post-sprint, black for program sessions
+  - Today marker: red dot (.timeline-week--today)
+  - Week labels in mono, dates below
+
+  ROLES COMPONENT:
+  - Three-column grid
+  - 3px top border (black default, red for team lead card)
+  - Role icon in mono uppercase
+  - Name, person, then duty list with khaki dash bullets
+
+  SESSIONS COMPONENT:
+  - Three-column grid per row (number, title, description)
+  - Pre-Sprint and Post-Sprint rows get khaki background (.session--bookend)
+  - 0.5px bottom borders between rows
+
+  AGREEMENTS TABLE:
+  - Three columns: Agreement (bold sans), Description (serif), By When (mono, right-aligned)
+  - 2px top border on header, hair rules between rows
+  - Khaki uppercase column headers
+
+  RESPONSIVE:
+  - Below 900px: single column layouts, timeline wraps to 4 columns
+  - Slide padding reduces to 60px 32px
+-->
+
+<!-- Copy the full CSS from the generated Amada deck as the base stylesheet -->
+<!-- Then replace all client-specific content with {PLACEHOLDER} values -->
+<!-- The CSS in the Amada kickoff deck is the canonical version of these tokens -->

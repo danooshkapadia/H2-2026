@@ -1,0 +1,128 @@
+<!--
+  AI Team Sprint — Kickoff Recap Email Template
+  Brand-styled HTML for Gmail draft creation.
+
+  USAGE:
+  - Load in Step 6 when drafting the recap email
+  - Fill in all {PLACEHOLDER} values
+  - Keep all inline styles intact (Gmail strips <style> tags)
+  - Pass filled HTML to Gmail:create_draft with htmlBody parameter
+  - To: team lead email
+  - CC: sponsor email
+  - Subject: {Company} Team Sprint — Kickoff Recap + Next Steps
+
+  BRAND APPROXIMATION (Gmail-safe):
+  - Headers: Arial (Helvetica stand-in), bold, black #000000
+  - Section headers: 16px, uppercase, letter-spaced 0.08em, 2px black bottom border
+  - Sub-headers: 13px, uppercase, letter-spaced 0.1em, khaki #C5AA88
+  - Body: Georgia (Century stand-in), 15px, line-height 1.6, near-black #1A1A1A
+  - Dates: SF Mono stand-in, 12px, grey #6B6B6B, right-aligned
+  - Dividers: #eaeaea for soft rules, #ddd for table rows
+  - Red #CC0000: only for critical emphasis (e.g., "output is still your work")
+  - Timeline rows: alternate white and khaki #ECE3D7 backgrounds
+-->
+
+<body style="font-family: Georgia, 'Times New Roman', serif; font-size: 15px; line-height: 1.6; color: #1A1A1A; max-width: 680px; margin: 0 auto; padding: 20px;">
+
+<p>{TeamLeadFirstName},</p>
+
+<p>{Warm opener. 2-3 sentences. Personal, names the energy from the call. Reference something specific that happened. Not "great meeting today."}</p>
+
+<p>Here's a recap of everything we agreed to today, organized so nothing falls through the cracks.</p>
+
+<!-- ROLES -->
+<h2 style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; color: #000; text-transform: uppercase; letter-spacing: 0.08em; border-bottom: 2px solid #000; padding-bottom: 8px; margin-top: 36px;">Our Three Roles</h2>
+
+<table style="width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 14px;">
+  <tr style="border-bottom: 1px solid #ddd;">
+    <td style="padding: 10px 12px; font-family: Helvetica, Arial, sans-serif; font-weight: 700; width: 140px; vertical-align: top; color: #000;">Executive Sponsor</td>
+    <td style="padding: 10px 12px; vertical-align: top;"><strong style="font-family: Helvetica, Arial, sans-serif;">{SponsorFirstName}.</strong> {One-sentence description of sponsor role as agreed on call.}</td>
+  </tr>
+  <tr style="border-bottom: 1px solid #ddd;">
+    <td style="padding: 10px 12px; font-family: Helvetica, Arial, sans-serif; font-weight: 700; vertical-align: top; color: #000;">Team Lead</td>
+    <td style="padding: 10px 12px; vertical-align: top;"><strong style="font-family: Helvetica, Arial, sans-serif;">{TeamLeadFirstName}.</strong> {One-sentence description of team lead role as agreed on call.}</td>
+  </tr>
+  <tr style="border-bottom: 1px solid #ddd;">
+    <td style="padding: 10px 12px; font-family: Helvetica, Arial, sans-serif; font-weight: 700; vertical-align: top; color: #000;">Program Lead</td>
+    <td style="padding: 10px 12px; vertical-align: top;"><strong style="font-family: Helvetica, Arial, sans-serif;">Danoosh.</strong> {One-sentence description of program lead role.}</td>
+  </tr>
+</table>
+
+<!-- ACTION ITEMS -->
+<h2 style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; color: #000; text-transform: uppercase; letter-spacing: 0.08em; border-bottom: 2px solid #000; padding-bottom: 8px; margin-top: 36px;">Action Items</h2>
+
+<!-- Team Lead items first (primary recipient) -->
+<h3 style="font-family: Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 700; color: #C5AA88; text-transform: uppercase; letter-spacing: 0.1em; margin-top: 24px; margin-bottom: 8px;">{TeamLeadFirstName}</h3>
+<table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+  <tr style="border-bottom: 1px solid #eee;">
+    <td style="padding: 8px 12px; vertical-align: top;">{Action item description}</td>
+    <td style="padding: 8px 12px; font-family: 'SF Mono', Menlo, monospace; font-size: 12px; color: #6B6B6B; white-space: nowrap; vertical-align: top; text-align: right;">{Date}</td>
+  </tr>
+  <!-- Repeat rows as needed -->
+</table>
+
+<!-- Sponsor items -->
+<h3 style="font-family: Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 700; color: #C5AA88; text-transform: uppercase; letter-spacing: 0.1em; margin-top: 24px; margin-bottom: 8px;">{SponsorFirstName}</h3>
+<table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+  <tr style="border-bottom: 1px solid #eee;">
+    <td style="padding: 8px 12px; vertical-align: top;">{Action item description}</td>
+    <td style="padding: 8px 12px; font-family: 'SF Mono', Menlo, monospace; font-size: 12px; color: #6B6B6B; white-space: nowrap; vertical-align: top; text-align: right;">{Date}</td>
+  </tr>
+  <!-- Repeat rows as needed -->
+</table>
+
+<!-- Danoosh items (model accountability) -->
+<h3 style="font-family: Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 700; color: #C5AA88; text-transform: uppercase; letter-spacing: 0.1em; margin-top: 24px; margin-bottom: 8px;">Danoosh</h3>
+<table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+  <tr style="border-bottom: 1px solid #eee;">
+    <td style="padding: 8px 12px; vertical-align: top;">{Action item description}</td>
+    <td style="padding: 8px 12px; font-family: 'SF Mono', Menlo, monospace; font-size: 12px; color: #6B6B6B; white-space: nowrap; vertical-align: top; text-align: right;">{Date}</td>
+  </tr>
+  <!-- Repeat rows as needed -->
+</table>
+
+<!-- AI GOVERNANCE (include only if it came up on the call) -->
+<h2 style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; color: #000; text-transform: uppercase; letter-spacing: 0.08em; border-bottom: 2px solid #000; padding-bottom: 8px; margin-top: 36px;">One More Thing: AI Governance</h2>
+
+<p>{TeamLeadFirstName}, {reference to how this came up on the call}. That's outside the scope of this program, but it's smart to have something in place before kickoff. A one-pager covering the basics would go a long way:</p>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+  <li style="margin-bottom: 8px;">No PII goes into the AI. Redact before you paste.</li>
+  <li style="margin-bottom: 8px;">Training data is turned off on the business account (we'll verify in our tech setup call).</li>
+  <li style="margin-bottom: 8px;"><strong style="color: #CC0000;">Any output from AI is still your work.</strong> You're responsible for reviewing and approving everything before it leaves your desk.</li>
+  <li style="margin-bottom: 8px;">This is a living document. We'll revisit after the program.</li>
+</ul>
+
+<!-- TIMELINE -->
+<h2 style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; color: #000; text-transform: uppercase; letter-spacing: 0.08em; border-bottom: 2px solid #000; padding-bottom: 8px; margin-top: 36px;">Timeline at a Glance</h2>
+
+<table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+  <tr style="border-bottom: 1px solid #ddd; background: #ECE3D7;">
+    <td style="padding: 8px 12px; font-family: Helvetica, Arial, sans-serif; font-weight: 700; color: #000;">{Phase/Week label}</td>
+    <td style="padding: 8px 12px;">{What happens}</td>
+  </tr>
+  <tr style="border-bottom: 1px solid #ddd;">
+    <td style="padding: 8px 12px; font-family: Helvetica, Arial, sans-serif; font-weight: 700; color: #000;">{Phase/Week label}</td>
+    <td style="padding: 8px 12px;">{What happens}</td>
+  </tr>
+  <!-- Alternate backgrounds: #ECE3D7 and white -->
+</table>
+
+<p style="font-size: 13px; color: #6B6B6B; margin-top: 8px;"><em>{Note about vacation conflicts, scheduling caveats, etc.}</em></p>
+
+<!-- RESOURCES -->
+<h2 style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; color: #000; text-transform: uppercase; letter-spacing: 0.08em; border-bottom: 2px solid #000; padding-bottom: 8px; margin-top: 36px;">Resources</h2>
+
+<ul style="margin: 12px 0; padding-left: 24px;">
+  <li style="margin-bottom: 8px;"><strong style="color: #000;">Kickoff call recording:</strong> <a href="{Fathom URL}" style="color: #000;">Watch on Fathom</a> ({duration})</li>
+  <li style="margin-bottom: 8px;"><strong style="color: #000;">Program overview document:</strong> Attached. {Brief description of what's attached.}</li>
+</ul>
+
+<!-- CLOSING -->
+<p style="margin-top: 32px;">{Warm close. Reinforce the handoff. "From here on out, you and I are in direct contact." Tell sponsor when they'll hear from Danoosh next.}</p>
+
+<p>{Forward-looking line. "Really looking forward to this."}</p>
+
+<p>Talk soon,<br>Danoosh</p>
+
+</body>

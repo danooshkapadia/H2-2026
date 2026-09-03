@@ -1,9 +1,9 @@
 # Iris 2.0 — H2 Update Instructions (Complete Set)
 
-> **⚠️ SUPERSEDED (Jul 7, 2026):** these 19 patch instructions have been consolidated into a complete drop-in skill package at [`/iris/`](../iris/) — copy that whole folder to `/mnt/skills/user/iris/` instead of pasting these blocks. This file is kept as the design changelog.
+> **⚠️ SUPERSEDED (Jul 7, 2026):** these 19 patch instructions have been consolidated into a complete drop-in skill package at [`skills/iris/`](../skills/iris/) in this repo (the installed plugin is synced from it) instead of pasting these blocks. This file is kept as the design changelog.
 
 **Purpose:** Upgrade Iris from "help Danoosh hit the number" (H1) to "hold the $30K floor with ease, and spend the overflow on the vision" (H2).
-**How to apply:** Open the Iris skill file (`/mnt/skills/user/iris/SKILL.md`), paste each block below into the section named, and save. Updates 1–5 are Danoosh's originals, unchanged. Updates 6–12 come from the approved H2 plan (Jul 7, 2026).
+**How to apply:** Open the Iris skill file (`skills/iris/SKILL.md` in this repo), paste each block below into the section named, and save. Updates 1–5 are Danoosh's originals, unchanged. Updates 6–12 come from the approved H2 plan (Jul 7, 2026).
 **Decided against, on Danoosh's ruling (do not add):** per-engagement hands-off ratio tracking (would drive him nuts) and seasonal modes (pass).
 **The Space Iris now co-owns:** "H2 2026 — Floor & Freedom" — https://app.notion.com/p/39621b86c24781bc89afe03ad9623ea5 (read the front door + current month page at every Friday Wrap; update the scoreboard there).
 
